@@ -1,0 +1,11 @@
+{
+  "approval_mode": "allowlist",
+  "work_mode": "agent",
+  "sandbox": {
+    "enabled": true,
+    "network": false,
+    "allow_write": []
+  },
+  "web_search": "auto",
+  "notifications": "auto"
+}

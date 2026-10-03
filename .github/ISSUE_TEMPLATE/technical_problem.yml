@@ -1,0 +1,44 @@
+name: Technical problem
+description: Install, provider, CI/headless, or environment issues.
+title: "tech: "
+labels: ["technical"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Prefer [Troubleshooting](https://homuncel.netlify.app/docs/reference/troubleshooting) first.
+  - type: input
+    id: version
+    attributes:
+      label: Homuncel version
+      description: Output of `homuncel --version`
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Install / update
+        - Model / provider / credentials
+        - TUI / permissions
+        - Headless `homuncel run` / CI
+        - Services (e.g. SearXNG)
+        - MCP / hooks / skills
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What fails, error text, and what you already tried.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, shell, install method, provider name (no keys).
+    validations:
+      required: false

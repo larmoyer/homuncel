@@ -1,0 +1,10 @@
+# Ignore local editor / OS noise in the public community repo.
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.log
+.env
+.env.*

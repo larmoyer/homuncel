@@ -1,0 +1,13 @@
+{
+  "default_model": "auto",
+  "auto": {
+    "optimize_for": "balance",
+    "show_routed": true,
+    "pool": ["gpt", "fast"]
+  },
+  "approval_mode": "auto",
+  "work_mode": "agent",
+  "web_search": "auto",
+  "max_turns": 80,
+  "notifications": "auto"
+}

@@ -1,0 +1,17 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://homuncel.netlify.app/
+    about: Install, providers, TUI, headless run, and troubleshooting.
+  - name: Questions (Discussions)
+    url: https://github.com/larmoyer/homuncel/discussions/categories/q-a
+    about: How-to and usage questions that are not bugs.
+  - name: Ideas (Discussions)
+    url: https://github.com/larmoyer/homuncel/discussions/categories/ideas
+    about: Feature brainstorming before a formal request.
+  - name: Private contact
+    url: https://github.com/larmoyer/homuncel/security/advisories/new
+    about: Reach the maintainer privately via GitHub (security or confidential topics).
+  - name: Security vulnerability
+    url: https://github.com/larmoyer/homuncel/security/advisories/new
+    about: Privately report a security issue.

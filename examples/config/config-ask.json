@@ -1,0 +1,33 @@
+{
+  "default_model": "auto",
+  "auto": {
+    "optimize_for": "balance",
+    "show_routed": true,
+    "pool": ["gpt", "fast"]
+  },
+  "models": {
+    "gpt": {
+      "endpoint": "https://api.openai.com/v1",
+      "model": "gpt-4.1",
+      "credential": "openai",
+      "tier": "strong"
+    },
+    "fast": {
+      "endpoint": "https://api.openai.com/v1",
+      "model": "gpt-4.1-mini",
+      "credential": "openai",
+      "tier": "light"
+    }
+  },
+  "credentials": {
+    "openai": {
+      "type": "bearer",
+      "parameters": { "token": "sk-REPLACE_ME" }
+    }
+  },
+  "approval_mode": "ask",
+  "work_mode": "agent",
+  "web_search": "auto",
+  "stream": true,
+  "auto_compact": true
+}

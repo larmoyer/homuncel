@@ -1,0 +1,53 @@
+name: Bug report
+description: Something Homuncel does wrong or unexpectedly.
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Redact API keys and private transcripts.
+        Docs: https://homuncel.netlify.app/
+  - type: input
+    id: version
+    attributes:
+      label: Homuncel version
+      description: Output of `homuncel --version`
+      placeholder: "0.1.45"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: OS
+      options:
+        - Linux
+        - macOS
+        - Windows
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what occurred instead?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: Minimal steps from a clean project if possible.
+      placeholder: |
+        1. …
+        2. …
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / screenshots
+      description: Optional. Redact secrets.
+    validations:
+      required: false

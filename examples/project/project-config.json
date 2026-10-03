@@ -1,0 +1,25 @@
+{
+  "approval_mode": "ask",
+  "work_mode": "agent",
+  "web_search": "auto",
+  "mcpServers": {
+    "filesystem-hint": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "."],
+      "timeout": 60
+    }
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"turn complete in $HOMUNCEL_PROJECT_DIR\" >&2"
+          }
+        ]
+      }
+    ]
+  }
+}
