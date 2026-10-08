@@ -19,6 +19,7 @@ Most setup and usage questions are answered here:
 | Bug | [Issue → Bug report](https://github.com/larmoyer/homuncel/issues/new?template=bug_report.yml) |
 | Feature request | [Issue → Feature request](https://github.com/larmoyer/homuncel/issues/new?template=feature_request.yml) |
 | Technical problem (CI, install, provider) | [Issue → Technical problem](https://github.com/larmoyer/homuncel/issues/new?template=technical_problem.yml) |
+| Bug or feedback by email | Run `/bug` or `/feedback` inside Homuncel: it opens an email with your version and OS filled in, or saves it as Markdown under `~/.homuncel/feedback/` to send from any mail account |
 | Private / confidential | [CONTACT.md](CONTACT.md) |
 | Security | [SECURITY.md](SECURITY.md) |
 

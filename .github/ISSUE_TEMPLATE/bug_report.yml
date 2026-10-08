@@ -7,13 +7,14 @@ body:
     attributes:
       value: |
         Thanks for the report. Redact API keys and private transcripts.
+        Prefer email? Run `/bug` inside Homuncel: it opens an email to the team with your version and OS filled in, and saves it as a Markdown file under `~/.homuncel/feedback/` when there is no mail app.
         Docs: https://homuncel.netlify.app/
   - type: input
     id: version
     attributes:
       label: Homuncel version
       description: Output of `homuncel --version`
-      placeholder: "0.1.45"
+      placeholder: "0.1.49"
     validations:
       required: true
   - type: dropdown
